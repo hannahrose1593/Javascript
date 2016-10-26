@@ -32,23 +32,36 @@
   var i = h/g;
   console.log(i);
 
-  var firstName = Hannah;
+  var firstName = "Hannah";
   console.log(firstName);
-  var middleName = Elizabeth;
+  var middleName = "Elizabeth";
   console.log(middleName);
-  var lastName = Rose;
+  var lastName = "Rose";
   console.log(lastName);
   var name = firstName + middleName + lastName;
   console.log(name);
 
   var statement = 'My name is' + name;
   console.log(statement);
-  var greeting = 'Hi,' = statement;
+  var greeting = 'Hi,' + statement;
   console.log(greeting);
 
-  function doubleIt(2) {
-    return number * 2;
+  function squareIt(number) {
+    var squared = number * number;
+    console.log(number * number);
   }
+  squareIt(5);
+  squareIt(6);
+  squareIt(3);
+
+  function FullName(firstName, middleName, lastName) {
+    return firstName + " " + middleName + " "+ lastName
+  }
+
+  FullName("Hannah", "Elizabeth", "Rose");
+  FullName("Arthur", "Ramon", "Junior");
+  FullName("Emma", "Caitlin", "Graves");
+
 
   </script>
 <body>
