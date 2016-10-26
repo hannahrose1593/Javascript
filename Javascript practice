@@ -46,6 +46,9 @@
   var greeting = 'Hi,' = statement;
   console.log(greeting);
 
+  function doubleIt(2) {
+    return number * 2;
+  }
 
   </script>
 <body>
