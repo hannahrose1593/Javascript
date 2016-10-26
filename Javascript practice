@@ -32,5 +32,20 @@
   var i = h/g;
   console.log(i);
 
+  var firstName = Hannah;
+  console.log(firstName);
+  var middleName = Elizabeth;
+  console.log(middleName);
+  var lastName = Rose;
+  console.log(lastName);
+  var name = firstName + middleName + lastName;
+  console.log(name);
+
+  var statement = 'My name is' + name;
+  console.log(statement);
+  var greeting = 'Hi,' = statement;
+  console.log(greeting);
+
+
   </script>
 <body>
